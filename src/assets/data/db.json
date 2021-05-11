@@ -1,0 +1,22 @@
+{
+    "cars": [
+      {
+        "id": 1,
+        "model": "Palio",
+        "color": "Preto",
+        "price": 20.005
+      },
+      {
+        "id": 2,
+        "model": "Veloster",
+        "color": "Azul",
+        "price": 40.012
+      },
+      {
+        "id": 3,
+        "model": "Camaro",
+        "color": "Branco",
+        "price": 80.021
+      }
+    ]
+  }

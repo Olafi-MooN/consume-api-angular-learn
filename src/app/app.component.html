@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Lista de carros</a>
+</nav>
+<div class="container">
+  <div class="card list-car">
+    <h5 class="card-header bg-primary text-light">Lista de carros</h5>
+    <div class="card-body">
+      <table class="table table-striped table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Id</th>
+              <th scope="col">Modelo</th>
+              <th scope="col">Cor</th>
+              <th scope="col">Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let car of cars">
+              <td>{{car.id}}</td>
+              <td>{{car.model}}</td>
+              <td>{{car.color}}</td>
+              <td>{{car.price }}</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </div>
+
+</div>
+<router-outlet></router-outlet>
